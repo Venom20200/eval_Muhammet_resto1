@@ -1,0 +1,186 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* -------------- HEADER -------------- */
+
+
+header {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+.city {
+    color: #be7d6d;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.titre-bilan {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-size: 40px;
+    letter-spacing: 10px; /* Pour espacer les lettres entre elles */
+    margin: 0;
+}
+
+/* --------------- NAV ---------------- */
+
+
+nav a {
+    text-decoration: none;
+    color: #505153;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #3a04ff;
+    transition: 200ms; 
+}
+
+/* ------------- CONTAINER -------------- */
+
+
+.container {
+    margin: 0 auto;
+    width: 40%;
+    background-color: white;
+}
+
+/* ------- SECTION ASSIETTE PLAT --------  */
+
+
+.image-assiette {
+    float: left;
+    width: 378px;
+}
+
+.titre-plat {
+    color: #3f3c3c;
+    padding-bottom: 25px;
+    padding-top: 130px;
+    border-bottom: 2px solid #bbbbbb;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.paragraphe-plat {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    word-spacing: 8px; /* Pour espacer les mots entre eux */
+    font-size: 18px;
+}
+
+
+/* ------- SECTION SALLE -------- */
+
+
+.image-salle {
+    float: right;
+    width: 378px;
+    padding-left: 20px;
+}
+
+.titre-salle {
+    color: grey;
+    padding-bottom: 25px;
+    padding-top: 180px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold; /* Pour mettre en gras */
+    display: inline;
+    padding: 7px;
+}
+
+i {
+    font-size: 12px;
+}
+
+/* ---------- SECTION SERVICE ----------- */
+
+
+.image-service {
+    float: left;
+    width: 378px;
+    padding-right: 20px;
+}
+
+.titre-service {
+    color: grey;
+    padding-bottom: 25px;
+    padding-top: 130px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+/* ---------- SECTION DRESSAGE ------------ */
+
+
+.image-dressage {
+    float: right;
+    width: 378px;
+    padding-left: 20px;
+}
+
+.titre-dressage {
+    color: grey;
+    padding-bottom: 25px;
+    padding-top: 150px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+/* ---------- SECTION GOUT ----------- */
+
+
+.image-gout {
+    float: left;
+    width: 378px;
+    padding-right: 20px;
+}
+
+.titre-gout {
+    color: grey;
+    padding-bottom: 25px;
+    padding-top: 100px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+/* ----------- FOOTER ------------ */
+
+
+footer {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.titre-septime {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-size: 45px;
+    letter-spacing: 10px; /* Pour espacer les lettres entre elles */
+    margin: 0;
+}
+
+.paragraphe-footer {
+    margin: 10px;
+}
+
+.numero {
+    margin: -15px;
+}
+
+.ouverture {
+    margin-top: 20px;
+    margin-bottom: 100px
+}
